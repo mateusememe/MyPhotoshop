@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AppMyPhotoshop.jnlp">
+  <information>
+    <title>AppMyPhotoshop</title>
+    <vendor>Silvio</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AppMyPhotoshop.jar" size="26028" download="eager" />
+    <jar href="lib\ij.jar" size="2358980" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AppMyPhotoshop" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="appmyphotoshop.AppMyPhotoshop"  name="AppMyPhotoshop" />
+  <update check="always"/>
+</jnlp>
